@@ -1,0 +1,11 @@
+<?php
+	$host="localhost";
+	$user="root";
+	$pass="";
+	$dbname="shopdetails";
+	$con=mysql_connect($host,$user,$pass);
+	if($con)
+	{
+		$select=mysql_select_db($dbname,$con);
+	}
+?>
